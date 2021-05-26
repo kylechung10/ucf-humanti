@@ -1,94 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>About Us</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About</title>
+    <link rel="shortcut icon" href="imgs/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="page-container">
-        <div class="content-wrapper">
-
-    <nav class="nav-bar">
-        <img src="./img/logo.png" alt="Logo" class="logo">
-        <div class="menu-container">
-            <a href="index.html" class="nav-links">Home</a>
-            <a href="about.html" class="nav-links">About</a>
-            <a href="involved.html" class="nav-links">Get Involved</a>
-            <a href="search.html" class="nav-links">Search</a>            
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="imgs/logo.png" alt="logo" class="logo" />
+          </a>
         </div>
-    </nav>    
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="involved.html">Get Involved</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </span>
+        </ul>
+      </nav>
+      <!--PLACE CONTENT BELOW HERE-->
 
-    <div class="grid-about">
+      <div class="grid-about">
         <div class="goal-wrapper">
-            <h2>Our Goal</h2>
-            <p>
-                Humanti’s website allows users to connect with environmental information that is not typically available in our day-to-day media consumption. We aim to teach users to live both sustainably and comfortably, as well as provide them access to get involved within their communities. Our main goal though, is to open the eyes of many and show them the reality of just how important this fight is.
-            </p>
+          <div class="about-title">
+            <div class="heading-welcome">
+              <h2 class="about-header">About Us</h2>
+              <p>Welcome to Humanti!</p>
+            </div>
+            <img src="imgs/earth.png" alt="Earth logo" />
+          </div>
+          <p class="about-text">
+            Humanti is an online platform built to spread awareness about the
+            increasing effects of plastic usage, one of the most pressing
+            environmental issues we face today. Our goal is inform, educate, and
+            connect our users with the tools they need to get involved. By
+            providing tips and resources, we hope we can encourage the switch to
+            alternative forms of basic plastics. There are a bunch of tiny
+            adjustments we can all make to our lives, that can contribute to the
+            overall health of our planet. More than anything at all, Humanti's
+            purpose is to give people the knowledge needed to stir up
+            conversation and start talking about plastic pollution.
+          </p>
         </div>
-    
-        <div class="creators-wrapper">
 
-            <div class="creators-grid">
-                <div class="creators-title">
-                    <h2>Meet the Creators</h2>
-                    <p>We are senior digital media students, specializing in web design at the University of Central Florida. We are advocating for the fight to stop plastic pollution across the world.</p>    
-                </div>
-    
-                <div class="creator">
-                    <h3>Illias Askew</h3>
-                    <img src="./img/profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <p>Designer</p>    
-                </div>
-        
-                <div class="creator">
-                    <h3>Kensley Strong</h3>
-                    <img src="./img/profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <p>Designer</p>    
-                </div>
-        
-                <div class="creator">
-                    <h3>Samantha Farls</h3>
-                    <img src="./img/profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <p>Content Strategist</p>    
-                </div>
-        
-                <div class="creator">
-                    <h3>Sara Echeverria</h3>
-                    <img src="./img/profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <p>Developer</p>    
-                </div>    
-    
-                <div class="creator">
-                    <h3>Kyle Chung</h3>
-                    <img src="./img/profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <p>Developer</p>    
-                </div>
-        
+        <div class="creators-wrapper">
+          <div class="creators-title">
+            <h2 class="about-header">Meet the Creators</h2>
+            <p class="creators-text">
+              We are senior digital media students, specializing in web design
+              at the University of Central Florida.
+            </p>
+          </div>
+          <div class="creators-grid">
+            <div class="creator">
+              <h3>Illias Askew</h3>
+              <img
+                src="./imgs/profile_pics/creator_illias.jpg"
+                alt="Profile Picture"
+                class="profile-pic"
+              />
+              <p>Designer</p>
             </div>
 
+            <div class="creator">
+              <h3>Samantha Farls</h3>
+              <img
+                src="./imgs/profile_pics/creator_sam.jpg"
+                alt="Profile Picture"
+                class="profile-pic"
+              />
+              <p>Content Strategist</p>
+            </div>
+
+            <div class="creator">
+              <h3>Sara Echeverria</h3>
+              <img
+                src="./imgs/profile_pics/creator_sara.jpg"
+                alt="Profile Picture"
+                class="profile-pic"
+              />
+              <p>Developer</p>
+            </div>
+
+            <div class="creator">
+              <h3>Kyle Chung</h3>
+              <img
+                src="./imgs/profile_pics/creator_kyle.jpg"
+                alt="Profile Picture"
+                class="profile-pic"
+              />
+              <p>Developer</p>
+            </div>
+          </div>
         </div>
-    
+      </div>
+
+      <!--PLACE CONTENT ABOVE HERE-->
+      <!--END OF CONTENT-->
+
+      <footer>
+        <div class="footer-left">
+          <h2>Humanti</h2>
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="about.html">About</a>
+            |
+            <a href="involved.html">Get Involved</a>
+          </p>
+          <p class="copyright">Copyright 2021 Humanti</p>
+        </div>
+        <div class="footer-center">
+          <div class="contact">
+            <h2>Contact Information</h2>
+            <div>
+              <span><i class="fa fa-phone"></i>123-456-7890</span>
+            </div>
+            <div>
+              <span><i class="fa fa-envelope"></i>info@humanti.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h2>Humanti Information</h2>
+          <p>
+            This site is not official and is an assignment for the UCF Digital
+            Media course
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <div class="contact">
-        <h2>Contact Information</h2>
-        <p>Contact us by calling 123-456-7890 or email us at info@humanti.com</p>
-    </div>
-
-
-    </div> <!--content-wrapper-->
-
-    <footer>
-        <p>This site is not official and is an assignment for the UCF Digital Media course</p>
-        <p>Copyright 2021 Humanti</p>
-    </footer>
-
-    </div> <!--page-container-->
-
-
-</body>
+    <!--Page Container Tag-->
+    <script src="js/script.js"></script>
+  </body>
 </html>

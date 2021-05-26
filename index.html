@@ -1,63 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Home</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Humanti</title>
+    <link rel="shortcut icon" href="imgs/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="page-container">
-        <div class="content-wrapper">
-
-        <nav class="nav-bar">
-            <img src="./img/logo.png" alt="Logo" class="logo">
-            <div class="menu-container">
-                <a href="index.html" class="nav-links">Home</a>
-                <a href="about.html" class="nav-links">About</a>
-                <a href="involved.html" class="nav-links">Get Involved</a>
-                <a href="search.html" class="nav-links">Search</a>            
-            </div>
-        </nav>    
-
-        <div class="grid-home">
-            <div class="home1">
-                <h1>Humanti</h1>
-                <p>Welcome to Humanti, an online platform being built to spread awareness about the increasing effects of plastic usage. Our goal is to provide users with all the information they need in order to maintain an eco-friendly lifestyle. Humanti encourages users to get involved in the environmental crisis that is plastic pollution. There are a ton of things we can do as individuals to help make the world a cleaner place and it starts right at home!</p>
-            </div>
-        
-                <div class="home2">
-                    <h2>Did You Know?</h2>
-                    <ul class="content-list">
-                        <li>Did you know that around 8.3 billion tons of plastic have been produced worldwide?</li>
-                        <li>Did you know that plastic usage in some parts of the world is illegal?</li>
-                        <li>Did you know that 73% of beach litter worldwide is plastic?</li>
-                        <li>Did you know a million plastic bottles are bought around the world every minute?</li>
-                    </ul>
-                </div>
-            
-                <div class="home3">
-                    <h2>Tips</h2>
-                    <ul class="content-list">
-                        <li>Bring useable bags to the grocery store</li>
-                        <li>Recycle any plastics you may have at home</li>
-                        <li>Participate in local beach clean-ups</li>
-                        <li>Support us and other organizations addressing plastic pollution</li>
-                    </ul>
-                </div>    
-        
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="imgs/logo.png" alt="logo" class="logo" />
+          </a>
         </div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="involved.html">Get Involved</a></li>
 
-    </div> <!--content-wrapper-->
-    
-    <footer>
-        <p>This site is not official and is an assignment for the UCF Digital Media course</p>
-        <p>Copyright 2021 Humanti</p>
-    </footer>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </span>
+        </ul>
+      </nav>
+      <!--PLACE CONTENT BELOW HERE-->
+      <section class="section1">
+        <div class="header-section">
+          <h1 class="slogan">Rise above plastic</h1>
+          <p><strong>A plastic pollution project</strong></p>
+          <a href="#two">
+            <button class="btn1"><strong>Let's Get Started</strong></button>
+          </a>
+        </div>
+        <div class="custom-shape-divider-bottom-1617756020">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </section>
 
-    </div> <!--page-container-->
+      <section id="two" class="section2">
+        <div class="item1">
+          <img src="imgs/plasticbag.png" alt="Plastic bag" />
+        </div>
+        <div class="item2">
+          <h2>What is Plastic Pollution?</h2>
+          <p>
+            Plastic pollution is a build-up of synthetic plastic products that
+            negatively affect natural habitats for humans and wildlife. Plastic
+            pollution is one of the most significant contributors to climate
+            change. Plastic is nearly impossible to break down, winds up in
+            landfills, and the ocean where it adversely affects marine life.
+            Additionally, waste management cannot effectively recycle most
+            plastic (even those with a recycling symbol), which means that most
+            plastic waste ends up in landfills or the ocean.
+          </p>
+          <p>
+            It's important to regularly step back and think about how our
+            everyday actions impact the planet. Right now, there are 150 million
+            metric tons of plastic in our oceans - and we're releasing an
+            additonal 8 million metric tons each year. Plastic pollution exists
+            almost everywhere in the ocean, from the remote seas of the Artic to
+            the floor of the deep sea.
+          </p>
+        </div>
+      </section>
 
-</body>
+      <section class="section3">
+        <div class="factsContent">
+          <h2>Did You Know?</h2>
+          <div class="slide-container">
+            <div class="mySlides">
+              <div>
+                <p>
+                  <strong
+                    >Enough plastic is thrown away each year to circle the earth
+                    four times.</strong
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >50 percent of the plastic we use, we use just once and throw
+                  away.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >Americans throw away 35 billion plastic water bottles every
+                  year.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >It takes 500-1,000 years for plastic to degrade.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >The equivalent of a truckload of plastic enters the oceans
+                  every minute.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >Only 1 percent of plastic bags are returned for
+                  recycling.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >Plastic is killing more than 1.1 million seabirds and animals
+                  every year.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >When plastic breaks down, it turns into smaller pieces of
+                  plastic known as microplastics.</strong
+                >
+              </p>
+            </div>
+            <div class="mySlides">
+              <p>
+                <strong
+                  >A single American throws away 185 pounds of plastic annually,
+                  approximately half of which is single-use.</strong
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="mega-btns">
+            <button class="arrowLeft" onclick="plusDivs(-1)">⇦</button>
+            <button class="arrowRight" onclick="plusDivs(1)">⇨</button>
+          </div>
+          <div class="mega-btns">
+            <img src="imgs/megaphone.png" alt="Graphic" />
+            <img src="imgs/megaphone2.png" alt="Graphic" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section4">
+        <div class="tips">
+          <h2>Where Can You Start?</h2>
+          <p>Here are 5 ways you can start rising above plastic!</p>
+        </div>
+        <div class="circle-container">
+          <div class="circle">
+            <p>Seek out alternatives to the plastic items that you rely on</p>
+          </div>
+
+          <div class="circle">
+            <p>Bring your to-go mug with you to the coffee shop</p>
+          </div>
+
+          <div class="circle">
+            <p>Carry reusable utensils in your purse, backpack or car</p>
+          </div>
+
+          <div class="circle">
+            <p>Reframe from purchasing single-use plastics</p>
+          </div>
+
+          <div class="circle">
+            <p>Spread the word. Talk to your family and friends</p>
+          </div>
+        </div>
+      </section>
+
+      <!--END OF CONTENT-->
+
+      <footer>
+        <div class="footer-left">
+          <h2>Humanti</h2>
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="about.html">About</a>
+            |
+            <a href="involved.html">Get Involved</a>
+          </p>
+          <p class="copyright">Copyright 2021 Humanti</p>
+        </div>
+        <div class="footer-center">
+          <div class="contact">
+            <h2>Contact Information</h2>
+            <div>
+              <span><i class="fa fa-phone"></i>123-456-7890</span>
+            </div>
+            <div>
+              <span><i class="fa fa-envelope"></i>info@humanti.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h2>Humanti Information</h2>
+          <p>
+            This site is not official and is an assignment for the UCF Digital
+            Media course
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--Page Container Tag-->
+    <script src="js/script.js"></script>
+  </body>
 </html>

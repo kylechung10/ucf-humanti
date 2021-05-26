@@ -1,76 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Get Involved</title>
-</head>
-<body>
-
+    <link rel="shortcut icon" href="imgs/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="page-container">
-        <div class="content-wrapper">
-
-    <nav class="nav-bar">
-        <img src="./img/logo.png" alt="Logo" class="logo">
-        <div class="menu-container">
-            <a href="index.html" class="nav-links">Home</a>
-            <a href="about.html" class="nav-links">About</a>
-            <a href="involved.html" class="nav-links">Get Involved</a>
-            <a href="search.html" class="nav-links">Search</a>            
+      <nav>
+        <div class="logo">
+          <a href="index.html"> 
+           
+          <img src="imgs/logo.png" alt="logo" class="logo" />
+        </a>
         </div>
-    </nav>    
-
-    <div class="involved-wrapper">
-
-        <div class="form-wrapper">
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="involved.html" class="active">Get Involved</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </span>
+        </ul>
+      </nav>
+      <!--PLACE CONTENT HERE-->
+      <div class="involved-wrapper">
+        <div class="bg-involved">
+          <div class="form-wrapper">
             <form action="">
-                <div>
-                    <h2>Sign-Up Form</h2>
-                    <p>Sign up to receive more information and opportunities about environmental events near you!</p>    
-                </div>
-        
-                <label for="fname">First Name</label>
-                <input type="text" placeholder="First Name">
-                <br>
-                <label for="lname">Last Name</label>
-                <input type="text" placeholder="Last Name">
-                <br>
-                <label for="email">First Name</label>
-                <input type="email" placeholder="Email Address">
-                <br>
-                <label for="pnum">First Name</label>
-                <input type="text" placeholder="Phone Number">
-                <br>
+              <div class="form-header">
+                <h2>Get Involved!</h2>
+                <p>
+                  Sign up to receive more information and opportunities about
+                  environmental events near you!
+                </p>
+              </div>
+
+              <div class="inputs">
+                <input type="text" placeholder="First Name" />
+                <br />
+                <input type="text" placeholder="Last Name" />
+                <br />
+                <input type="email" placeholder="Email Address" />
+                <br />
+                <input type="text" placeholder="Phone Number" />
+                <br />
                 <button>Sign Up</button>
-        
-                </form>        
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
+      <!-- Involved Wrapper Close Tag-->
 
-        <div class="resources-wrapper">
-            <h2>Resources</h2>
-            <ul>
-                <li><a href="#">RESOURCE_LINK</a></li>
-                <li><a href="#">RESOURCE_LINK</a></li>
-                <li><a href="#">RESOURCE_LINK</a></li>
-                <li><a href="#">RESOURCE_LINK</a></li>
-                <li><a href="#">RESOURCE_LINK</a></li>
-            </ul>
+      <div class="resources-wrapper">
+        <h2 class="resources-header">Resources</h2>
+        <div class="row">
+          <a href="https://www.plasticpollutioncoalition.org/#" target="_blank">
+            <div class="resource-panel">
+              <img src="./imgs/resources/plastic_poll.jpg" alt="Screenshot" />
+              <div class="panel-info">
+                <p>Plastic Pollution Coalition</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://plasticoceans.org/" target="_blank">
+            <div class="resource-panel">
+              <img src="./imgs/resources/plastic_oceans.jpg" alt="Screenshot" />
+              <div class="panel-info">
+                <p>Plastic Oceans</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://blueocean.net/" target="_blank">
+            <div class="resource-panel">
+              <img src="./imgs/resources/blue_ocean.jpg" alt="Screenshot" />
+              <div class="panel-info">
+                <p>Blue Ocean</p>
+              </div>
+            </div>
+          </a>
         </div>
+        <div class="row">
+          <a
+            href="https://www.bluehabits.org/fight-plastic-pollution"
+            target="_blank"
+          >
+            <div class="resource-panel">
+              <img src="./imgs/resources/blue_habits.jpg" alt="Screenshot" />
+              <div class="panel-info">
+                <p>Blue Habits</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.storyofstuff.org/plastic/" target="_blank">
+            <div class="resource-panel">
+              <img src="./imgs/resources/story_of_stuff.jpg" alt="Screenshot" />
+              <div class="panel-info">
+                <p>The Story of Stuff</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://changingmarkets.org/" target="_blank">
+            <div class="resource-panel">
+              <img
+                src="./imgs/resources/changing_markets.jpg"
+                alt="Screenshot"
+              />
+              <div class="panel-info">
+                <p>Changing Markets Foundation</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
+      <!--END OF CONTENT-->
+
+      <footer>
+        <div class="footer-left">
+          <h2>Humanti</h2>
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="about.html">About</a>
+            |
+            <a href="involved.html">Get Involved</a>
+          </p>
+          <p class="copyright">Copyright 2021 Humanti</p>
+        </div>
+        <div class="footer-center">
+          <div class="contact">
+            <h2>Contact Information</h2>
+            <div>
+              <span><i class="fa fa-phone"></i>123-456-7890</span>
+            </div>
+            <div>
+              <span><i class="fa fa-envelope"></i>info@humanti.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h2>Humanti Information</h2>
+          <p>
+            This site is not official and is an assignment for the UCF Digital
+            Media course
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    </div> <!--content-wrapper-->
-
-
-    <footer>
-        <p>This site is not official and is an assignment for the UCF Digital Media course</p>
-        <p>Copyright 2021 Humanti</p>
-    </footer>
-
-</div> <!--page-container-->
-
-
-</body>
+    <!--Page Container Tag-->
+    <script src="js/script.js"></script>
+  </body>
 </html>
